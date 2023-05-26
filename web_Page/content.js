@@ -1,6 +1,5 @@
-import { useFormik } from "formik";
 import ReactDOM from 'react-dom';
-import "./css/web.css";
+import "../css/web.css";
 
 export default function Contents() {
     return (

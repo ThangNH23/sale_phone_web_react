@@ -1,8 +1,6 @@
 import React from 'react';
 import { ReactDOM } from 'react';
-import "./css/web.css";
-
-
+import "../css/web.css";
 
 export default function Head(){
   return(
