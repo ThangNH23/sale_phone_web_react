@@ -21,7 +21,7 @@ export default function Contents() {
                         <a href="/w3images/nature.jpg">
                             <img src="/w3images/nature.jpg" alt="Nature" />
                             <div className="caption">
-                                <p>Lorem ipsum...</p>
+                                <p>ip14</p>
                             </div>
                         </a>
                     </div>

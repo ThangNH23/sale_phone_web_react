@@ -42,3 +42,10 @@ function Menu() {
       </div>
     );
   }
+
+function Background_img() {
+  return (
+    <div className='bgr'>
+    </div>
+  )
+}
