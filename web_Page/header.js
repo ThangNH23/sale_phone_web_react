@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactDOM } from 'react';
 import "../css/web.css";
+import image from "../Image/image.png"
 
 export default function Head(){
   return(
@@ -9,7 +10,7 @@ export default function Head(){
         <div className="col-sm-8">
       <div className="row">
     <div className="col-sm-4">
-    <img className="logo" src="images.png" alt="logo" />
+    <img className="logo" src={image} alt="logo" />
     </div>
     <div className="col-sm-8" id='title'>
       <h3> TRUNG TÂM BÁN ĐIỆN THOẠI CAO CẤP LUXURY</h3>
