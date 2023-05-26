@@ -5,15 +5,15 @@ import "./css/web.css";
 export default function Contents() {
     return (
         <div className='Container'>
-            <h1 className='title'>Đây là những sinh viên của tôi</h1>
+            <h1 className='title'>Sản phẩm của chúng tôi</h1>
             <div className="row">
                 <div className="col-md-3">
                     <div className="thumbnail">
                         <a href="#">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUcmNNRsJkYuZJ8og_N7AyW45ZyooossPnOQ&usqp=CAU" alt="Lights" />
-                            <div className="caption">
+                            {/* <div className="caption">
                                 <p>Lorem ipsum...</p>
-                            </div>
+                            </div> */}
                         </a>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ export default function Contents() {
                 </div>
                 <div className="col-md-3">
                     <div className="thumbnail">
-                        <a href="/w3images/fjords.jpg">
+                        <a href="">
                             <img src="/w3images/fjords.jpg" alt="Fjords" />
                             <div className="caption">
                                 <p>Lorem ipsum...</p>

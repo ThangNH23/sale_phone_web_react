@@ -31,5 +31,7 @@ body {
 
 .title {
     text-align: center;
-    color: #ff3838;
+    color: #f5f6fa;
+    padding: 1% ;
+    padding-bottom: 2% ;
 }
