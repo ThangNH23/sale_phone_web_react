@@ -1,14 +1,11 @@
 import React from "react";
-import Head from "./web_Page/header";
-import Contents from "./web_Page/content";
-
+import Home from "./web_Page/home"
 function Appweb() {
     return (
         <div>
-            <Head />
-            <Contents/>
+            <Home/>
         </div>
     )
-
 }
 export default Appweb;
+
