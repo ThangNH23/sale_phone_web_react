@@ -13,29 +13,29 @@ function App() {
   return (
     <div className="App">
       <div className='Navbar'>
-      <Navbar/>
-    </div>
-    <div className="Hero">
-      <Hero/>
-    </div>
-    <div className="Popular">
-      <Popular/>
-    </div>
-    <div className="Release">
-      <Release/>
-    </div>
-    <div className="Category">
-      <Category/>
-    </div>
-    <div className="Watch">
-      <Watch/>
-    </div>
-    <div className="News">
-      <News/>
-    </div>
-    <div className="Footer">
-      <Footer/>
-    </div>
+        <Navbar />
+      </div>
+      <div className="Hero">
+        <Hero />
+      </div>
+      <div className="Popular">
+        <Popular />
+      </div>
+      <div className="Release">
+        <Release />
+      </div>
+      <div className="Category">
+        <Category />
+      </div>
+      <div className="Watch">
+        <Watch />
+      </div>
+      <div className="News">
+        <News />
+      </div>
+      <div className="Footer">
+        <Footer />
+      </div>
     </div>
   );
 }

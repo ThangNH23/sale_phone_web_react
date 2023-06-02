@@ -13,32 +13,33 @@ import Film8 from '../assets/film8.jpg'
 
 
 
-const Release = () =>{
-    return(
+const Release = () => {
+    return (
         <div className="Popular">
-        <div className="title">
-            <h1>New Release</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-        </div>
-        <div className="contentPopular">
-        <Swiper
-            slidesPerView={3}
-            spaceBetween={10}
-            pagination={{
-            clickable: true,
-            }}
-            modules={[Pagination]}
-            className="mySwiper"
-        >
-            <SwiperSlide>
-                <div className="card">
-                    <img src={Film5} alt="" />
-                    <div className="teks">
-                        <h3>Black Miror</h3>
-                        <h4>2023, Action</h4>
-                    </div>
-                </div>
-            </SwiperSlide>
+            <div className="title">
+                <h1>New Release</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+            <div className="contentPopular">
+                <Swiper
+                    slidesPerView={3}
+                    spaceBetween={10}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    modules={[Pagination]}
+                    className="mySwiper"
+                >
+                    <SwiperSlide>
+                        <div className="card">
+                            <img src={Film5} alt="" />
+                            <div className="teks">
+                                <h3>Black Miror</h3>
+                                <h4>2023, Action</h4>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    {/*
             <SwiperSlide>
                 <div className="card">
                     <img src={Film6} alt="" />
@@ -56,19 +57,19 @@ const Release = () =>{
                         <h4>2023, Action</h4>
                     </div>
                 </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className="card">
-                    <img src={Film8} alt="" />
-                    <div className="teks">
-                        <h3>Black Miror</h3>
-                        <h4>2023, Action</h4>
-                    </div>
-                </div>
-            </SwiperSlide>
-        </Swiper>
+            </SwiperSlide> */}
+                    {/* <SwiperSlide>
+                        <div className="card">
+                            <img src={Film8} alt="" />
+                            <div className="teks">
+                                <h3>Black Miror</h3>
+                                <h4>2023, Action</h4>
+                            </div>
+                        </div>
+                    </SwiperSlide> */}
+                </Swiper>
+            </div>
         </div>
-    </div>
     )
 }
 

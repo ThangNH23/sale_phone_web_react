@@ -3,7 +3,6 @@ import Category2 from '../assets/category2.jpg'
 import Category3 from '../assets/category3.jpg'
 import Category4 from '../assets/category4.jpg'
 
-
 const Category = () =>{
     return(
         <div className="Category">
